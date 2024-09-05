@@ -11,7 +11,7 @@ class AuthorFactory extends Factory
     {
         return [
             'name' => fake()->name,
-            'avatar' => 'avatars\ysnfmeIGjV6DOfAq7tjnNDyfGg3BzFgVZGVBOnwv.png',
+            'avatar' => fake()->imageUrl(),
             'user_id' => User::factory(),
         ];
     }
