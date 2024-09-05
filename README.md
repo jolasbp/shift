@@ -9,32 +9,22 @@ Shift is a simple car blog website with the following features:
 
 ## Installation
 
-1. Install Laravel Herd using this website url.
-    https://herd.laravel.com/
+1. Run 'npm install' command inside project directory.
 
-2. Go to your User/Herd directory and paste the project folder.
-    \User\Herd\shift
+2. Run 'composer install'.
 
-3. Run 'npm install' command inside :\User\Herd\shift directory.
+3. Make a copy of .env from .env.example inside project directory.
+
+4. Run application using 'php artisan serve' or 'npm run dev' on another terminal.
 
 ## Data Migrations and Seeding
 
-Table Plus is the software used for database management of this application. Shift used SQLite. 
+Shift used SQLite. 
 
-1. Install Table Plus using this website url.
-    https://tableplus.com/
+1. You need to generate a key using the command 'php artisan key:generate' inside project's directory.
 
-2. Add new connection using SQLite and select SQLite database file inside project directory.
-    :\User\Herd\shift\database
-
-3. Test the connection if working.
-
-4. Run the following commands for database migration and seeding.
+3. Run the following commands for database migration and seeding.
     'php artisan migrate:fresh --seed'
-
-5. Run 'npm run dev' to use vite.
-
-6. Finally go to your browser and type app url: 'http:shift.test'
 
 ## Packages Used
 
